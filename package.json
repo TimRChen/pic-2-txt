@@ -2,13 +2,22 @@
   "name": "pic-2-txt",
   "version": "1.0.0",
   "description": "A Node.js service to extract text from images using Tesseract.js",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "tsx index.ts",
+    "build": "tsc",
+    "dev": "tsx watch index.ts"
   },
   "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
     "tesseract.js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
   },
   "packageManager": "pnpm@8.x"
 }
