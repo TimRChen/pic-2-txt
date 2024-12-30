@@ -1,0 +1,14 @@
+{
+  "name": "pic-2-txt",
+  "version": "1.0.0",
+  "description": "A Node.js service to extract text from images using Tesseract.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "tesseract.js": "^4.1.1"
+  },
+  "packageManager": "pnpm@8.x"
+}
