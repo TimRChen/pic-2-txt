@@ -1,5 +1,6 @@
 # Picture to Text Converter
 
+This is an image text extraction service developed using Node.js and Tesseract.js. It can extract text from sequentially named images and keep the text format.
 这是一个使用 Node.js 和 Tesseract.js 开发的图片文字提取服务。它可以从按顺序命名的图片中提取文本，并保持文本格式。
 
 ## 功能特点
